@@ -141,7 +141,7 @@ export class SomeThing extends LitElement {
         border-radius: 3px;
       }
       .padding {
-        padding: 0.5em;
+        padding: 1em;
       }
       mwc-icon-button {
         align-self: flex-end;
@@ -155,6 +155,10 @@ export class SomeThing extends LitElement {
         box-shadow: 0px 1px 8px -4px;
         border-radius: 5px;
 
+      }
+
+      .fullWidth{
+        width: 100%;
       }
 
       .mdc-typography--headline6 {
@@ -229,9 +233,15 @@ export class SomeThing extends LitElement {
     };
   }
 
+  constructor() {
+    super();
+    this.thing_attrs = {};
+    this.thing_groups = [];
+  }
+
   render() {
     return html`
-      <div class="hoz card">
+      <div class="hoz card fullWidth">
         <div class="vert padding">
           <div class="hoz">
             <div class="vert">

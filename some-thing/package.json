@@ -1,6 +1,6 @@
 {
-  "name": "some-thing",
-  "version": "0.0.0",
+  "name": "@fine-app-design/some-thing",
+  "version": "0.0.1",
   "description": "Webcomponent some-thing following open-wc recommendations",
   "author": "some-thing",
   "license": "MIT",
